@@ -39,7 +39,7 @@
 .columns {
 	width: 25%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	color: #f2f3f4;
 	line-height: 24px;
 	padding-top: 10px;
@@ -98,7 +98,7 @@
 	float: left;
 	margin-right: auto;
 	margin-top: 0px;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	font-weight: normal;
 	color: #00447c;
 	letter-spacing: 1px;
@@ -135,7 +135,7 @@ a:hover {
 	background-color: #f2f3f4;
 	width: 50%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	padding-bottom: 15px;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -182,7 +182,7 @@ a:hover {
 }
 
 .right_article ul li {
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	list-style: none;
 	text-align: center;
 	background-color: #f2f3f4;
@@ -212,7 +212,7 @@ a:hover {
 .title {
 	font-weight: bold;
 	font-style: normal;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	text-align: center;
 	color: #f2f3f4;
 	letter-spacing: 2px;
@@ -231,14 +231,14 @@ a:hover {
 
 .container .column_half.left_half h2 {
 	color: #f2f3f4;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	text-align: center;
 }
 
 .right_half {
 	background-color: #035b7a;
 	color: #f2f3f4;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	text-align: center;
 	font-weight: bold;
 }
@@ -255,7 +255,7 @@ a:hover {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
