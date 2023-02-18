@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recruitment opdracht</title>
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="primary_header">
+        <h1 class="title">Recruitment Opdracht DevOps</h1>
+      </div>
+      <nav class="secondary_header" id="menu">
+        <ul>
+          <li><a href="#1">HTML Tags</a></li>
+          <li><a href="#2">Kleuren & Responsive Design</a></li>
+          <li><a href="#3">Interactiviteit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="1">
+      <div class="row">
+        <article class="left_article">
+          <h1>HTML Tags</h1>
+          <p>Voor het menu hierboven gebruik ik de <b>ul</b> en <b>li</b> tag.</p>
+          <h1>Dit is een <b>H1</b> tag.</h1>
+          <h2>Dit is een <b>H2</b> tag.</h2>
+          <p>Dit is een <b>P</b> tag.</p>
+          <br />
+          <p>Dit is een <b>P</b> tag met een <b>' br/ '</b> ertussen.</p>
+          <p>Hieronder een tabel met de <b>table, tr en td tag.</b></p>
+          <table style="width: 20%; border-collapse: collapse;"  border="1" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+              </tr>
+              <tr>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Hieronder heb je een H2 tag met een CSS class noDisplay, die kan je dus niet zien.</p>
+          <h2 class="noDisplay" Deze content kan je niet zien omdat het een CSS: display: none; tag heeft>Deze tekst kan
+            je niet zien</h2>
+          <p>Hieronder heb je de <b>hr</b> tag (De streep)</p>
+        </article>
+
+      </div>
+      <hr  id="2">
+    </section>
+
+    <section>
+      <article class="left_article">
+        <h1>Kleuren & Responsive Design</h1>
+        <p><b>Om ervoor te zorgen dat de webpagina er representatief uit ziet heb ik een kleurenschema gekozen met vijf
+            kleuren.</b></p>
+        <p>Ik heb overigens geprobeerd met de CSS @media query met een breaking-point tussen de 768px en 320px (voor
+          tablet & telefoon) breedte de site responsive te maken. Dit kan ik doen door de min-width en max-width
+          aan te geven en de CSS classes apart te behandelen qua width en padding/margin. Daardoor ziet deze site er op
+          de meeste apparaten qua uitlijning en stijl er goed uit.
+        </p>
+        <p>
+          Hieronder zie je hoe ik de 'responsiveness' gebruik om twee columns te maken met een linkerhelft en een
+          rechterhelft die ik los van elkaar kan bewerken door er bijvoorbeeld een andere achtergrondkleur aan te geven.
+          Als je de pagina kleiner maakt zullen deze colums meebewegen, totdat hij zo klein is dat ze onder elkaar
+          komen.
+        </p>
+        <br /><br />
+      </article>
+      <p style="font-size: 16px;">Dit is de <b>img</b> tag</p>
+      <aside class="right_article"><img src="images/kleurenschema.jpg" alt="" width="400" height="200"
+          class="placeholder" /> </aside>
+
+    </section>
+
+    <section>
+      <div class="row blockDisplay">
+        <div class="column_half left_half">
+          <h2 class="column_title">Een linker kolom</h2>
+        </div>
+        <div class="column_half right_half">
+          <h2 class="column_title">Een rechter kolom</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="3">
+      <article class="left_article">
+        <h1>Interactiviteit</h1>
+        <a href="https://de-toon.com/portfolio" target="_blank">Hier kan je mijn portfolio vinden via een <b>a</b>
+          tag</a>
+        <p><input> Het veld hiernaast is de <b>input</b> tag</input></p>
+        <a href="https://de-toon.com/portfolio" target="_blank"><button>Dit is de <b>button</b> tag</button></a>
+        <p>Dit is de <b>select</b> en de <b>option</b> tag</p> <select style="width:100px">
+          <option value="Selectie 1">Option 1</option>
+          <option value="Selectie 2">Option 2</option>
+          <option value="Selectie 3">Option 3</option>
+        </select>
+        <br /><br />
+      </article>
+
+
+    </section>
+
+    <footer class="secondary_header footer">
+      <div class="copyright">Toon van Dort &copy; 2023 - <strong>Recruitment Opdracht DevOps</strong></div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
